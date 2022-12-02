@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Scool Academy</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js"></script>
+<script src="javascript/validatename.js"></script>
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/Scool.png">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+<nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="course.html">Course</a></li>
+      <li><a href="download.html">Download</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html">Login</a></li>
+      
+    </ul> 
+  </nav>
+</header>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d468.27935012449416!2d125.53515421192908!3d8.949623477332215!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sph!4v1669947743261!5m2!1sen!2sph" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<h3>Contact</h3>
+<h4>Scool Academy Inc.<br>
+Ochoa Ave. Butuan City</h4>
+<pre>
+Mobile : +63912 345 6789<br>
+Phone : +63 8 812-347<br>
+Email :  info@scool.edu<br>
+Facebook : http://facebook.com/scool<br>
+</pre>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<br>
+<br>
+
+<strong>If you are student please enter your student number:</strong>
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<hr>
+<footer class="mainFooter">
+	<p>Copyright &copy <a href="https://www.facebook.com/">SCool Academy</a> </p>
+	<center>
+	<a href="https://www.facebook.com//">Facebook</a>
+	<a href="https://www.twitter.com//">Twitter</a>
+	<a href="https://www.youtube.com//">Youtube</a>
+	</center>
+</footer>
+<script type="text/javascript">
+	document.title="Download";
+</footer>
+<script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 1000) {
+        text = "Input not valid";
+    } else {
+        text = "Input OK";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html> 
+<script type="text/javascript">
+  document.title="Contact";
+</script>
+</body>
+</html>
